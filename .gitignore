@@ -1,0 +1,23 @@
+# Ignore everything in AH, ALDI, Jumbo, Plus, and Archive directories
+AH/
+ALDI/
+Jumbo/
+Plus/
+Archive/
+Structure Overall/
+SupermarketScraper_old/
+
+# Exclude specific files and directories within 'General Scraper'
+General Scraper/data/*.*
+General Scraper/logs/*.*
+
+# Ignore temporary and system files across the project
+*.log
+*.json
+*.tmp
+.DS_Store
+__pycache__/
+
+# Keep 'General Scraper' scripts but exclude subdirectories
+!General Scraper/
+!General Scraper/*.py
